@@ -25,7 +25,7 @@ function Navbar({toggle}) {
        <Nav scrollNav={setScrollNav}>
            <NavbarContainer>
                <NavbarLogo to= "/" onClick={toggleHome}>
-                   Restro
+                  YOUR VANDORE SHOP
                </NavbarLogo>
                <MobileIcon onClick={toggle}>
                    <FaBars />

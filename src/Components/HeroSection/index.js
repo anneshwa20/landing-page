@@ -15,10 +15,8 @@ function HeroSection() {
                 <Videobg autoPlay loop muted src={video} type='video/mp4'/>
             </Herobg>
             <HeroContent>
-                <Heroh1>Virtual Banking Made Easy</Heroh1>
-                <HeroP>Sign up for a new account today and receive 
-                    $250 in credit towrads your next payment 
-                    </HeroP>
+                <Heroh1>LET'S DRIVE THE MARKET</Heroh1>
+                <HeroP>Start your own e-commerce website accompanied by resourceful tools that help you make sales, manage marketing and engage with costomers.</HeroP>
                     <HeroBtnWrapper >
                         <ButtonC
                          to='sighup'
@@ -30,7 +28,7 @@ function HeroSection() {
                        duration={500}
                        spy={true}
                        exact='true'
-                       offset={-80} > Get Strated {hover ? <ArrowForward /> : <ArrowRight />} </ButtonC>
+                       offset={-80} > Start Free Trial {hover ? <ArrowForward /> : <ArrowRight />} </ButtonC>
                     </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer >

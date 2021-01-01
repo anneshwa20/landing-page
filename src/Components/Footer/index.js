@@ -51,7 +51,7 @@ function Footer() {
              </FooterLinksContainer>
              <SocialMedia > 
                  < SocialMediaWrap>
-                 <SocialLogo to="/" onClick={toggleHome} >Resto</SocialLogo>
+                 <SocialLogo to="/" onClick={toggleHome} >YOUR VANDORE SHOP</SocialLogo>
                  <WebsiteRight>Restro 2020 All rights are reserved</WebsiteRight>
                  <SocialIcons>
                      <SocialIconLink href="/" target="_blank" aria-label="Facebook">
