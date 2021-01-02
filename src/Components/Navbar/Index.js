@@ -1,7 +1,7 @@
 import React , {useState , useEffect} from 'react'
 import {FaBars} from 'react-icons/fa'
 import {animateScroll as scroll} from 'react-scroll'
-import {Nav , NavbarContainer , NavbarLogo , MobileIcon,NavMenu, NavItems, NavLink , NavBtn , NavBtnLink   } from './NavbarElements'
+import {Nav , NavbarContainer , NavbarLogo , MobileIcon,NavMenu, NavItems, NavLink , NavBtn , NavBtnLink ,NavBtnLinkSignUp  } from './NavbarElements'
 
 function Navbar({toggle}) {
     const [scrollNav, setScrollNav] = useState(false)
@@ -25,7 +25,7 @@ function Navbar({toggle}) {
        <Nav scrollNav={setScrollNav}>
            <NavbarContainer>
                <NavbarLogo to= "/" onClick={toggleHome}>
-                  YOUR VANDORE SHOP
+                   VANDORE 
                </NavbarLogo>
                <MobileIcon onClick={toggle}>
                    <FaBars />
@@ -48,21 +48,9 @@ function Navbar({toggle}) {
                        exact='true'
                        offset={-80}> Discover </NavLink>
                    </NavItems>
+                   
                    <NavItems>
-                       <NavLink to="services"
-                        smooth={true}
-                       duration={500}
-                       spy={true}
-                       exact='true'
-                       offset={-80}> Services </NavLink>
-                   </NavItems>
-                   <NavItems>
-                       <NavLink to="signup"
-                        smooth={true}
-                       duration={500}
-                       spy={true}
-                       exact='true'
-                       offset={-80}> Sign Up </NavLink>
+                   <NavBtnLinkSignUp to="/signup" > Sign Up </NavBtnLinkSignUp>
                    </NavItems> 
                </NavMenu>
                <NavBtn>

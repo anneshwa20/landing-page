@@ -113,6 +113,21 @@ text-decoration : none ;
     color : #010606 ;
 }
 `
+export const NavBtnLinkSignUp = styled(LinkR)`
+color : #fff ;
+display : flex ;
+align-items : center ;
+text-decoration : none ;
+padding : 0 1rem ;
+height : 100% ;
+cursor : pointer ;
+
+
+&.active {
+border-bottom : 3px solid #01bf71 ;
+}
+`
+
 
 
 
