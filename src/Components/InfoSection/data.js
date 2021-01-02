@@ -24,7 +24,7 @@ export const homeObjTwo = {
     lightTextDesc : false,
     topLine : 'sales' ,
     headline : ' Increase Your Customer Engagement' ,
-    description : 'Vandore ensures to drive high customer engagement on your website for better sales operations.',
+    description : ' website for better sales operations.',
     buttonLabel :'Get started',
     imgStart : true ,
     img:"https://i.ibb.co/ckgMzyf/orders-landing-page2021.png"  ,
